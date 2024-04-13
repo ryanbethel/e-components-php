@@ -1,0 +1,43 @@
+{
+  "name": "@ryanbethel/e-components",
+  "type": "module",
+  "description": "Enhance wrapper for Mdash. Mdash is a design system based on web standards. It's extremely small (see comparison chart), fast, simple, and compatible with any JavaScript framework. \n",
+  "version": "0.0.14",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanbethel/e-components"
+  },
+  "bugs": "https://github.com/ryanbethel/e-components/issues",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "/elements",
+    "/helpers",
+    "/assets"
+  ],
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Ryan Bethel",
+      "url": "https://github.com/ryanbethel/e-components"
+    }
+  ],
+  "keywords": [
+    "ui",
+    "components",
+    "web",
+    "css",
+    "html",
+    "frontend",
+    "webcomponents",
+    "customelements",
+    "enhance"
+  ],
+  "scripts": {
+    "start": "cd example && enhance dev"
+  },
+  "devDependencies": {
+    "@enhance/arc-plugin-enhance": "@enhance/arc-plugin-enhance",
+    "@enhance/cli": "^1.1.0"
+  }
+}
